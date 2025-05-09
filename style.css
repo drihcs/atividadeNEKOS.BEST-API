@@ -7,39 +7,31 @@
    font-family: Arial, sans-serif;
    background: linear-gradient(rgba(7, 0, 28, .78), rgba(7, 0, 28, .78)), url(public/background.png) no-repeat center;
    background-size: 100vw;
-   display: flex;
    justify-content: center;
-   align-items: center;
-   height: 100vh;
    text-align: center;
    padding: 2rem;
    min-height: 100vh;
-   font-family: 'Vactory Sans', sans-serif;
-   color: #fff;
+   color:#fff;
  }
-
  audio {
    display: none;
  }
-
  button {
    padding: 0.5rem 1rem;
    font-size: 1rem;
    cursor: pointer;
-   background-color: #999;
+   background-color: #666;
    color: #fff;
    border: none;
    border-radius: 5px;
  }
+button:hover{
+  background-color: #333;
+}
 
- button:hover {
-   background-color: #666;
- }
-
- a {
-   color: #fff;
- }
-
+a{
+  color:#fff;
+}
  #cat-container img {
    margin-top: 1rem;
    border-radius: 10px;
