@@ -14,28 +14,37 @@
    text-align: center;
    padding: 2rem;
    min-height: 100vh;
-   color:#ff0266;
+   font-family: 'Vactory Sans', sans-serif;
+   color: #fff;
  }
 
  audio {
    display: none;
  }
+
+ .header {
+   width: 50px;
+   height: 28px;
+ }
+
  button {
    padding: 0.5rem 1rem;
    font-size: 1rem;
    cursor: pointer;
-   background-color: #444;
+   background-color: #999;
    color: #fff;
    border: none;
    border-radius: 5px;
  }
-button:hover{
-  background-color: #ff0266;
-}
 
-a{
-  color:#ff0266;
-}
+ button:hover {
+   background-color: #666;
+ }
+
+ a {
+   color: #fff;
+ }
+
  #cat-container img {
    margin-top: 1rem;
    border-radius: 10px;
