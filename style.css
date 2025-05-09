@@ -11,9 +11,11 @@
    text-align: center;
    padding: 2rem;
    min-height: 100vh;
-   color: #ff0266;
+   color:#ff0266;
  }
-
+ audio {
+   display: none;
+ }
  button {
    padding: 0.5rem 1rem;
    font-size: 1rem;
@@ -28,7 +30,7 @@ button:hover{
 }
 
 a{
-  color:#ff0266;;
+  color:#ff0266;
 }
  #cat-container img {
    margin-top: 1rem;
