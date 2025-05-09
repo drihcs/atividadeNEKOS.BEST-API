@@ -1,0 +1,40 @@
+ * {
+   margin: 0;
+   padding: 0;
+ }
+
+ body {
+   font-family: Arial, sans-serif;
+   background: linear-gradient(rgba(7, 0, 28, .78), rgba(7, 0, 28, .78)), url(https://nekos.best/desktop_background.webp) no-repeat center;
+   background-size: 100vw;
+   justify-content: center;
+   text-align: center;
+   padding: 2rem;
+   min-height: 100vh;
+   color: #ff0266;
+ }
+
+ button {
+   padding: 0.5rem 1rem;
+   font-size: 1rem;
+   cursor: pointer;
+   background-color: #444;
+   color: #fff;
+   border: none;
+   border-radius: 5px;
+ }
+button:hover{
+  background-color: #ff0266;
+}
+
+a{
+  color:#ff0266;;
+}
+ #cat-container img {
+   margin-top: 1rem;
+   border-radius: 10px;
+ }
+
+ #status {
+   margin: 1rem 0;
+ }
