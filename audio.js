@@ -1,5 +1,5 @@
  const botao = document.getElementById('meuBotao');
-  const audio = new Audio('kiki.mp3');
+  const audio = new Audio('kiki-ost.mp3');
   audio.loop = true;
 
   botao.addEventListener('click', () => {
