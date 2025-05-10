@@ -1,14 +1,9 @@
- const audio = new Audio('public/kiki.mp3');
-    audio.loop = true;
+ const botao = document.getElementById('meuBotao');
+  const audio = new Audio('kiki.mp3');
+  audio.loop = true;
 
-    function tocarAudio() {
-      audio.play().then(() => {
-        console.log('Música tocando');
-      }).catch(err => {
-        console.error('Erro ao tocar:', err);
-      });
-
-      document.removeEventListener('click', tocarAudio);
-    }
-
-    document.addEventListener('click', tocarAudio);
+  botao.addEventListener('click', () => {
+    audio.play().catch(err => {
+      console.error('Erro ao tocar áudio:', err);
+    });
+  });
